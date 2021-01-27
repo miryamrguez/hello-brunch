@@ -8,8 +8,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-		# No necesito el repo puesto que quien ha llegado aquí, ya sabe la dirección
-                # git 'https://github.com/miryamrguez/hello-brunch.git'
+		//No necesito el repo puesto que quien ha llegado aquí, ya sabe la dirección
+                //git 'https://github.com/miryamrguez/hello-brunch.git'
                 sh 'docker-compose build'
             }
         }
